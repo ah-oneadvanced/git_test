@@ -1,0 +1,125 @@
+{
+  "rootFolder": "c:\\MySAS\\git_test",
+  "analyzedAt": "2025-11-21T10:40:17.635Z",
+  "rootStructure": [
+    {
+      "name": ".gitignore",
+      "type": "file",
+      "size": 627,
+      "lines": 58
+    },
+    {
+      "name": "ConflictPractice.csproj",
+      "type": "file",
+      "size": 246,
+      "lines": 10
+    },
+    {
+      "name": "Program.cs",
+      "type": "file",
+      "size": 857,
+      "lines": 29
+    }
+  ],
+  "rootFileSnippets": {
+    "ConflictPractice.csproj": [
+      "<Project Sdk=\"Microsoft.NET.Sdk\">",
+      "",
+      "<PropertyGroup>",
+      "<OutputType>Exe</OutputType>",
+      "<TargetFramework>net6.0</TargetFramework>",
+      "<RootNamespace>ConflictPractice</RootNamespace>",
+      "<Nullable>enable</Nullable>",
+      "</PropertyGroup>",
+      "",
+      "</Project>"
+    ],
+    "Program.cs": [
+      "using System;",
+      "",
+      "namespace ConflictPractice",
+      "{",
+      "class Program",
+      "{",
+      "static void Main(string[] args)",
+      "{",
+      "Console.WriteLine(\"Welcome to Conflict Resolution Practice!\");",
+      "Console.WriteLine(\"Version: 1.1 - With Multiplication\");"
+    ]
+  },
+  "importantFolders": [],
+  "readmeParagraphs": {},
+  "totals": {
+    "numFiles": 3,
+    "numDirs": 1,
+    "totalSizeBytes": 1730,
+    "totalLinesOfCode": 29
+  },
+  "fileCategories": {
+    "other": 2,
+    "source": 1
+  },
+  "linesOfCodePerLanguage": {
+    "C#": 29
+  },
+  "filesPerLanguage": {
+    "C#": 1
+  },
+  "projectTypes": [
+    "C# (.NET)"
+  ],
+  "frameworks": [
+    "ASP.NET Core"
+  ],
+  "entryPoints": [
+    "Program.cs"
+  ],
+  "ciCdTools": [],
+  "packageManagers": [
+    "NuGet"
+  ],
+  "topLevelDirectories": [],
+  "detailedDirectories": [],
+  "architecturalInsights": {
+    "coreApplications": [],
+    "entryPointDetails": [
+      {
+        "path": "..\\..\\Program Files\\Microsoft VS Code\\Program.cs",
+        "type": ".NET Console/Web Application",
+        "description": "Main application entry point"
+      }
+    ],
+    "serviceArchitecture": {
+      "microservices": [],
+      "monoliths": [],
+      "libraries": []
+    },
+    "layeredArchitecture": {
+      "presentation": [],
+      "business": [],
+      "data": [],
+      "infrastructure": []
+    }
+  },
+  "largeFiles": [],
+  "dependencies": {
+    "production": [],
+    "development": [],
+    "total": 0
+  },
+  "complexity": {
+    "averageFileSize": 9.666666666666666,
+    "maxFileSize": 0,
+    "nestedDepth": 0,
+    "estimatedComplexity": "low"
+  },
+  "gitRepo": {
+    "firstCommitDate": "2025-11-21",
+    "totalCommits": 1,
+    "numContributors": 0,
+    "currentBranch": "feature/add-multiplication",
+    "remoteUrls": [
+      "https://github.com/ah-oneadvanced/git_test.git"
+    ]
+  }
+}
